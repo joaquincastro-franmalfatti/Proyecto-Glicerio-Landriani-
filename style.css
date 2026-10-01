@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f0e8;
+    color: #333333;
+}
+
+header {
+    background-color: #7b1e1e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #4d1212;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 2px solid #ddd2c0;
+    border-left: 6px solid #7b1e1e;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #7b1e1e;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #4d1212;
+    margin-top: 20px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section > img {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+section ul {
+    margin-top: 15px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+.card {
+    width: 280px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #c9b8a0;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #4d1212;
+}
+
+.card button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #7b1e1e;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.quiz-card {
+    min-height: 230px;
+}
+
+#puntaje {
+    font-weight: bold;
+    color: #7b1e1e;
+    text-align: center;
+}
+
+#fuentes {
+    background-color: #eee6d8;
+}
+
+footer {
+    background-color: #4d1212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
